@@ -1,15 +1,57 @@
 @font-face {
-font-family: 'Averta Standard Regular';
+font-family: 'Averta';
 font-style: normal;
 font-weight: normal;
-src: local('Averta Standard Regular'), url('./../fonts/averta/AvertaStandard-Regular.woff') format('woff');
+src: local('Averta'), url('./../fonts/averta/AvertaStandard-Regular.woff') format('woff');
+}
+@font-face {
+font-family: 'Averta';
+font-style: normal;
+font-weight: bold;
+src: local('Averta'), url('./../fonts/averta/bold.woff') format('woff');
 }
 
+@font-face {
+font-family: 'Averta';
+font-style: normal;
+font-weight: 900;
+src: local('Averta'), url('./../fonts/averta/extrabold.woff') format('woff');
+}
+@font-face {
+font-family: 'Averta';
+font-style: normal;
+font-weight: 100;
+src: local('Averta'), url('./../fonts/averta/extrathin.woff') format('woff');
+}
+@font-face {
+font-family: 'Averta';
+font-style: normal;
+font-weight: 200;
+src: local('Averta'), url('./../fonts/averta/thin.woff') format('woff');
+}
+@font-face {
+font-family: 'Averta';
+font-style: normal;
+font-weight: lighter;
+src: local('Averta'), url('./../fonts/averta/light.woff') format('woff');
+}
+@font-face {
+font-family: 'Averta';
+font-style: normal;
+font-weight: 600;
+src: local('Averta'), url('./../fonts/averta/semibold.woff') format('woff');
+}
+@font-face {
+font-family: 'Averta';
+font-style: normal;
+font-weight: 400;
+src: local('Averta'), url('./../fonts/averta/regular.woff') format('woff');
+}
 html, body {
 	height: 100%;
 }
 body {
-	font-family: 'Averta Standard Regular';
+	font-family: 'Averta';
 	margin: 0;
 	padding: 0;
 }
@@ -37,7 +79,7 @@ body {
 /* ===== Logo ===== */
 
 .navbar-brand {
-	font-family: 'Averta Standard Regular';
+	font-family: 'Averta';
 	font-size: 26px;
 }
 .navbar-brand i {
@@ -1234,7 +1276,7 @@ a.carousel-arrow-next {
 }
 .breadcrumb {
     background-color: transparent;
-		font-size: 12px
+    font-size: 13px;
 }
 a {
     text-decoration: none;
@@ -1253,11 +1295,12 @@ a {
 .navbar-brand img {
     max-width: 121px;
 }
-.content p{
-	color: #555555;
-	font-size: 18px;
-	line-height: 28px;
-	margin: 30px 0px
+.content p {
+    color: #555555;
+    font-size: 17px;
+    line-height: 30px;
+    margin: 30px 0px;
+    font-weight: 400;
 }
 .integration-list{
 	margin-top: 20px
@@ -1267,6 +1310,7 @@ h4.lead-text {
     color: #545454;
     font-size: 18px;
     margin-bottom: 32px;
+    font-weight: 600;
 }
 .blue-bulle-list{
 	list-style-type: none;
@@ -1278,9 +1322,10 @@ h4.lead-text {
     position: relative;
     padding-left: 53px;
     color: #555555;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 26px;
     margin-bottom: 20px;
+    font-weight: 400;
 }
 .blue-bulle-list li::before {
     content: "";
@@ -1341,8 +1386,8 @@ color: #555555;
     font-size: 13px;
     color: white;
     text-transform: uppercase;
-    font-weight: 600;
-    font-family: 'Averta Standard Regular';
+    font-weight: 400;
+    font-family: 'Averta';
 }
 .footer-column-list ul {
     list-style-type: none;
@@ -1352,10 +1397,13 @@ color: #555555;
 
 }
 .footer-column-list ul li a {
-    font-size: 11px;
+    font-size: 12px;
     color: white;
-    margin-bottom: 4px;
+    margin-bottom: 7px;
     display: block;
+    font-weight: 300;
+    opacity: .9;
+    letter-spacing: .5px;
 }
 .follow-list{
 	display: flex;
@@ -1389,6 +1437,9 @@ color: #555555;
     font-size: 12px;
     line-height: inherit;
     color: white;
+    opacity: .9;
+    font-weight: 300;
+    letter-spacing: .5px;
 }
 .footer-logo{
 	display: block;
@@ -1424,6 +1475,9 @@ color: #555555;
     font-size: 18px !important;
     position: relative;
     top: 3px;
+}
+.contact-text {
+    font-weight: 400;
 }
 @media (min-width: 1200px)
 {
