@@ -1377,7 +1377,7 @@ color: #555555;
 .footer-wrapper {
     background-color: #3E4F57;
     padding-top: 50px;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 .footer-column{
 
@@ -1478,6 +1478,9 @@ color: #555555;
 }
 .contact-text {
     font-weight: 400;
+}
+.content {
+    max-width: 440px;
 }
 @media (min-width: 1200px)
 {
